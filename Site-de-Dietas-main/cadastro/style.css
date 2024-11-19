@@ -1,0 +1,91 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url(img/Captura\ de\ tela\ 2024-09-06\ 145941.png);
+  background-color: rgba(18, 18, 18, 0.418);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.registro {
+  width: 23%;
+  height: 888px;
+  max-width: 100%;
+  max-height: 100%;
+  padding: 20px;
+  background: rgb(0, 0, 0);
+  margin-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.formulario {
+  margin-bottom: 40px;
+}
+
+.formulario label {
+  margin-bottom: 5px;
+  color: white;
+  font-weight: bold;
+}
+
+.formulario input {
+  width: 97%;
+  padding: 8px;
+  margin: 10px;
+  box-sizing: border-box;
+}
+
+.btn {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  border: 1px white solid;
+  padding: 10px;
+  display: flex;
+  margin: 0 185px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.btn:hover{
+  background-color: rgba(128, 128, 128, 0.863);
+}
+
+input {
+  border-radius: 30px;
+  border-style: none;
+}
+
+input:hover {
+  background-color: rgba(128, 128, 128, 0.863);
+}
+
+figure {
+  margin: 0;
+}
+
+figure img {
+  max-width: 100%;
+  max-height: auto;
+  width: auto;
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (min-width: 0px) and (max-width: 640px) {
+  .registro {
+    width: auto;
+    height: auto;
+  }
+  figure img {
+    width: auto;
+    height: auto;
+    margin: 0;
+    padding: 0;
+  }
+}
